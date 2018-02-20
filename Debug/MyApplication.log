@@ -1,0 +1,17 @@
+﻿2018/02/20 14:26:38 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "C:\work\mystudy\directx11\MyApplication\MyApplication.vcxproj" (Build ターゲット)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt script\DX11Graphics.cpp script\main.cpp script\MainWindow.cpp
+         MainWindow.cpp
+     1>c:\work\mystudy\directx11\myapplication\script\mainwindow.cpp(27): warning C4800: 'int': ブール値を 'true' または 'false' に強制的に設定します (警告の処理)
+     1>c:\work\mystudy\directx11\myapplication\script\mainwindow.cpp(38): error C2065: 'WndProc': 定義されていない識別子です。
+         main.cpp
+     1>c:\work\mystudy\directx11\myapplication\script\main.cpp(27): error C2660: 'DX11Graphics::InitGraphics': 関数に 0 個の引数を指定できません。
+     1>c:\work\mystudy\directx11\myapplication\script\main.cpp(48): error C3861: 'GameMain': 識別子が見つかりませんでした
+         DX11Graphics.cpp
+         コードを生成中...
+     1>プロジェクト "C:\work\mystudy\directx11\MyApplication\MyApplication.vcxproj" (Build ターゲット) のビルドが終了しました -- 失敗。
+
+ビルドに失敗しました。
+
+経過時間 00:00:02.33
